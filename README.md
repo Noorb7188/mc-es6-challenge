@@ -8,9 +8,7 @@
 
 ## Description (based on a true story)
 
-As part of a job application, an employer has asked you to write an `assertEquals` function. You're desperate to impress them, so you use as many ES6 features as you can – arrow functions, spread operators, classes, to name a few.
-
-Just before submitting your test, you double check the brief and realise that your code needs to run in Internet Explorer – which doesn't support ES6! With an hour to go until your deadline, you need to replace as many of the ES6 features as possible with their ES5 equivalents.
+The code in `assertEquals.js` is written using ES6 syntax. Try to convert as much of it as possible to ES5.
 
 ## Learning outcomes
 
@@ -21,20 +19,19 @@ Just before submitting your test, you double check the brief and realise that yo
 
 Don't worry – you don't need to know any ES6 already. Everything required is referenced with comments in the code.
 
-Before you change anything, run the code in Node to see the output. 
-None of the changes you make should affect the output.
+- Before you change anything, run the code in Node to see the output. None of the changes you make should affect the output.
 
-You probably won't have time to change all of the ES6 syntax in an hour 
-Instead, pick a few features that you're interested in, read some documentation, try to replace them with ES5, then run the file again in Node to check that the output hasn't changed. 
-(Node will happily run code that contains a mixture of ES5 and ES6 syntax, so you don't have to replace every single ES6 feature before you can test your changes.)
+- You probably won't have time to change all of the ES6 syntax in an hour 
 
-The first time each ES6 feature appears in the code, you'll find a comment on the previous line telling you what features to look for, which you can look up in the list below to find a quick fix.
+- Pick a few features that you're interested in, read some documentation, try to replace them with ES5, then run the file again in Node to check that the output hasn't changed. 
 
-The code makes use of several ES6 features. 
+- The first time each ES6 feature appears in the code, you'll find a comment on the previous line telling you what features to look for, which you can look up in the list below to find a quick fix.
 
-If you're not feeling hugely comfortable with ES6, then focus on understanding and replacing some of the features near the top of the following list. 
+- The code makes use of several ES6 features:
 
-If you already feel comfortable with ES6, feel free to skip ahead to some of the features at the end of the list – the two at the bottom are particularly challenging.
+    - If you're not feeling hugely comfortable with ES6, then focus on understanding and replacing some of the features near the top of the following list. 
+
+    - If you already feel comfortable with ES6, feel free to skip ahead to some of the features at the end of the list – the two at the bottom are particularly challenging.
 
 The features (ordered by how difficult it will be to replace them with ES5, from easiest to hardest) are:
 

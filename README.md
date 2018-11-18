@@ -6,7 +6,7 @@
 
 2. Run `node assertEquals.js` from the repository directory to run the tests in Node.
 
-## Description (based on a true story)
+## Description
 
 The code in `assertEquals.js` is written using ES6 syntax. Try to convert as much of it as possible to ES5.
 

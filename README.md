@@ -34,7 +34,7 @@ Don't worry – you don't need to know any ES6 already. Everything required is r
     - If you already feel comfortable with ES6, feel free to skip ahead to some of the features at the end of the list – the two at the bottom are particularly challenging.
 
 The features (ordered by how difficult it will be to replace them with ES5, from easiest to hardest) are:
-
+---
 - [block-scoped variables](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/let): Declared with `let`. Similar to `var`s, but scoped to a single block (essentially the set of curly brackets it's declared in). **Quick fix**: Replace with a `var` and test that your code hasn't broken.
 
 - [constants](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const):  Declared with `const`. Similar to a `let`, but the reference can't be changed after it's been declared. **Quick fix**: Replace with a `var` and test that your code hasn't broken.

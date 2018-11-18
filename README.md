@@ -12,10 +12,6 @@ As part of a job application, an employer has asked you to write an `assertEqual
 
 Just before submitting your test, you double check the brief and realise that your code needs to run in Internet Explorer – which doesn't support ES6! With an hour to go until your deadline, you need to replace as many of the ES6 features as possible with their ES5 equivalents.
 
-### Morals of the story
-
-Never assume that your code will run in an environment that supports ES6 syntax. And always read the brief properly.
-
 ## Learning outcomes
 
 - Recognising some common ES6 features and understanding how they relate to familiar ES5 features.
@@ -25,13 +21,20 @@ Never assume that your code will run in an environment that supports ES6 syntax.
 
 Don't worry – you don't need to know any ES6 already. Everything required is referenced with comments in the code.
 
-Before you change anything, run the code in Node to see the output. None of the changes you make should affect the output. If you're curious, you might also want to try running the code in a browser that doesn't support ES6 features (try Internet Explorer) to see what happens.
+Before you change anything, run the code in Node to see the output. 
+None of the changes you make should affect the output.
 
-You probably won't have time to change all of the ES6 syntax in an hour, so don't feel that you're under pressure to finish everything – this isn't a real job application! Instead, pick a few features that you're interested in, read some documentation, try to replace them with ES5, then run the file again in Node to check that the output hasn't changed. (Node will happily run code that contains a mixture of ES5 and ES6 syntax, so you don't have to replace every single ES6 feature before you can test your changes.)
+You probably won't have time to change all of the ES6 syntax in an hour 
+Instead, pick a few features that you're interested in, read some documentation, try to replace them with ES5, then run the file again in Node to check that the output hasn't changed. 
+(Node will happily run code that contains a mixture of ES5 and ES6 syntax, so you don't have to replace every single ES6 feature before you can test your changes.)
 
-The first time each ES6 feature appears in the code, you'll find a comment on the previous line telling you what features to look for, which you can look up in the list below to find a quick fix. It's up to you to identify any subsequent times that the feature gets used – but if you're running short on time, focus on replacing a variety of different ES6 features, rather than replacing the same feature in several places.
+The first time each ES6 feature appears in the code, you'll find a comment on the previous line telling you what features to look for, which you can look up in the list below to find a quick fix.
 
-The code makes use of several ES6 features. If you're not feeling hugely comfortable with ES6, then focus on understanding and replacing some of the features near the top of the following list – don't worry about the bottom half of the list, as this isn't a race. If you already feel comfortable with ES6, feel free to skip ahead to some of the features at the end of the list – the two at the bottom are particularly challenging.
+The code makes use of several ES6 features. 
+
+If you're not feeling hugely comfortable with ES6, then focus on understanding and replacing some of the features near the top of the following list. 
+
+If you already feel comfortable with ES6, feel free to skip ahead to some of the features at the end of the list – the two at the bottom are particularly challenging.
 
 The features (ordered by how difficult it will be to replace them with ES5, from easiest to hardest) are:
 
